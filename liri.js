@@ -14,7 +14,7 @@ var command = process.argv[2];
 var userSearch = process.argv[3];
 
 
-//SPOTIFY CALL
+//-------------------------------
 
 switch (command) {
 
@@ -131,7 +131,7 @@ var pick = function(dataOne, dataTwo){
         case 'spotify-this-song':
             spotCall(dataTwo);
             break;
-            
+
         case 'movie-this':
             movieTime();
             break;
